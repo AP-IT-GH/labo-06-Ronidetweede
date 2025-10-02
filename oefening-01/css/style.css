@@ -1,0 +1,51 @@
+.Kaart {
+    width: 300px;
+background-color: white;
+text-align: center;
+box-shadow: 0px 4px 12px black;
+border-radius: 5px;
+margin: auto;
+padding: 20px;
+
+
+
+}
+body{
+      font-family: "Arial", sans-serif;
+      min-height: 100vh;
+    background: var(--bg);
+  display: grid;
+
+}
+ 
+
+.img {
+    
+    position: relative;
+    top: -60px;
+    left: 0px;
+    right: 0px;
+    padding: 2px;
+    border-radius: 60px;
+    border: solid purple;
+    
+}
+.profile-name {
+    color:black;
+    font-weight: bold;
+    margin-top: -50px;
+      padding-bottom: 10px;
+}
+.profile-desc {
+    color: gray;
+    font-weight: bold;
+    margin-top: -5px;
+
+
+}
+
+.profile-contact{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
